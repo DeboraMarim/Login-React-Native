@@ -13,11 +13,28 @@ Este projeto foi iniciado com o [Expo](https://expo.dev/), uma framework e uma p
 
 ### Instruções de Configuração
 
-1. **Instalar Dependências:**
-   `` npx expo install react-native-web@~0.19.6 react-dom@18.2.0 @expo/webpack-config@^19.0.0``
+### Instalar Dependências
+
+1. **Instalar Dependências do Node:**
+   No seu terminal, dentro do diretório do seu projeto, execute o comando abaixo para instalar todas as dependências necessárias listadas em `package.json`:
+   ```
+   npm install
+   ```
+   ou se você estiver usando Yarn:
+
+   ```
+   yarn install
+   ```
+
+2. **Instalar Dependências do Expo:**
+Algumas dependências precisam ser instaladas usando expo install para garantir a compatibilidade com o Expo. Execute o comando abaixo para instalar essas dependências:
+
+   ```
+   npx expo install react-native-web@~0.19.6 react-dom@18.2.0 @expo/webpack-config@^19.0.0
+   ```
 
 
-Iniciar o Projeto:
+### Iniciar o Projeto:
 
 rode o comando: 
 
@@ -27,8 +44,21 @@ rode o comando:
 
 Após iniciar o projeto, você pode pressionar:
 
-`a` para abrir o projeto no Emulador Android.
+* `a` para abrir o projeto no Emulador Android.
+* `i` para abrir o projeto no Simulador iOS.
+* `w` para abrir o projeto no modo web.
 
-`i` para abrir o projeto no Simulador iOS.
 
-`w` para abrir o projeto no modo web.
+### Tecnologias Utilizadas
+ 
+* React Native
+* Expo 
+* JavaScript
+ 
+### Funcionalidades
+
+
+* Login de Usuário
+* Validação de Email e Senha
+* Navegação entre Telas
+* Renderização de Imagens
