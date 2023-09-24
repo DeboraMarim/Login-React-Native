@@ -1,0 +1,34 @@
+# App de Login
+
+App de Login com tela de login e pagina inicial.
+
+## Configuração do Ambiente de Desenvolvimento
+
+Este projeto foi iniciado com o [Expo](https://expo.dev/), uma framework e uma plataforma para aplicações universais React. Siga as instruções abaixo para configurar o ambiente de desenvolvimento.
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+
+### Instruções de Configuração
+
+1. **Instalar Dependências:**
+   `` npx expo install react-native-web@~0.19.6 react-dom@18.2.0 @expo/webpack-config@^19.0.0``
+
+
+Iniciar o Projeto:
+
+rode o comando: 
+
+`cd App-005`
+
+`npx expo start`
+
+Após iniciar o projeto, você pode pressionar:
+
+`a` para abrir o projeto no Emulador Android.
+
+`i` para abrir o projeto no Simulador iOS.
+
+`w` para abrir o projeto no modo web.
